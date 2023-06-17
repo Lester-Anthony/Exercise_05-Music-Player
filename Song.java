@@ -1,16 +1,18 @@
+import java.util.ArrayList;
+
 public class Song {
     private String title;
     private String artist;
     private String genre;
-    private String[] lyrics;
-    private float playTime;
+    private ArrayList<String> lyrics;
+    private double playTime;
 
-    public Song(String title, String artist, String genre, String[] lyrics) {
+    public Song(String title, String artist, String genre, ArrayList<String> lyrics, double playTime) {
         this.title = title;
         this.artist = artist;
         this.genre = genre;
         this.lyrics = lyrics;
-        
+        this.playTime = playTime;
     }
 
     public String getTitle() {
@@ -22,11 +24,11 @@ public class Song {
     public String getGenre() {
          return genre;
     }
-    public String[] getLyrics() {
+    public ArrayList<String> getLyrics() {
         return lyrics;
     }
     public float getPlayTime() {
-        return playTime;
+        return (float)playTime;
     }
 
 }
