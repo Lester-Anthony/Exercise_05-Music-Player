@@ -1,14 +1,17 @@
 import java.util.ArrayList;
 
+/**
+ * The Playlist class represents a playlist containing songs.
+ */
 public class Playlist {
     private String name;
     private ArrayList<Song> songList;
     static int playlistCount = 0;
 
     /**
-     * Constructor method for playlists
-     * 
-     * @param name - name of the playlist
+     * Constructs a Playlist object with the specified name.
+     *
+     * @param name the name of the playlist
      */
     public Playlist(String name) {
         this.name = name;
@@ -17,27 +20,27 @@ public class Playlist {
     }
 
     /**
-     * Adds songs to playlist
-     * 
-     * @param song - song to be added to playlist
+     * Adds a song to the playlist.
+     *
+     * @param song the song to be added to the playlist
      */
     public void addSong(Song song) {
         songList.add(song);
     }
 
     /**
-     * getter for name
-     * 
-     * @return name - name of the playlist
+     * Retrieves the name of the playlist.
+     *
+     * @return the name of the playlist
      */
     public String getName() {
         return name;
     }
 
     /**
-     * getter for songList
-     * 
-     * @return songList - list of songs in the playlist
+     * Retrieves the list of songs in the playlist.
+     *
+     * @return the list of songs in the playlist
      */
     public ArrayList<Song> getSongList() {
         return songList;
