@@ -16,8 +16,7 @@ public class Driver {
 				"What you, ooh, uh, what you do?",
 				"Made a move, coulda made a move",
 				"If I knew I'd be with you",
-				"Is it too late to pursue?")),
-			111.5);
+				"Is it too late to pursue?")));
 
 		Song s2 = new Song(
 			"Save Rock and Roll",
@@ -30,8 +29,7 @@ public class Driver {
 				"In a little more light",
 				"I cried tears you'll never see",
 				"So fuck you, you can go cry me an ocean!",
-				"And leave me be")),
-			79.0);
+				"And leave me be")));
 
 		Song s3 = new Song(
 			"Good Morning World!",
@@ -42,8 +40,7 @@ public class Driver {
 				"Good Morning World!",
 				"Dore hodo aruitarou?",
 				"Ashi no itami dake ga",
-				"Sono kyori wo monogataru")),
-			48.0);
+				"Sono kyori wo monogataru")));
 
 		Song s4 = new Song(
 			"Tell Me Why",
@@ -57,8 +54,7 @@ public class Driver {
 				"Nothing will be wrong",
 				"There's no blame, there's no fame",
 				"It's up to you, the first words should be finded",
-				"Whatever holds you back, I can, I can get it off")),
-			131.0);
+				"Whatever holds you back, I can, I can get it off")));
 
 		mp.addSong(s1);
 		mp.addSong(s2);
